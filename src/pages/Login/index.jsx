@@ -1,11 +1,12 @@
-import LogoSVG from "../../assets/logo_hackweek.svg";
+/* import LogoSVG from "../../assets/logo_hackweek.svg"; */
+import LogoSTCC from "../../assets/logoSTCC.png";
 import { LoginStyle } from "./styles";
 const Login = () => {
   return (
     <div>
       <LoginStyle>
         <div className="container">
-          <img src={LogoSVG} alt="Logo Hackweek" className="logohw" />
+          <img src={LogoSTCC} alt="Logo Hackweek" className="logohw" />
           <h3>Bem-vindo!</h3>
           <p className="subtitle">Faça login para continuar</p>
           <label>Usuário</label>

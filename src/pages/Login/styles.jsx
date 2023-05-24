@@ -15,10 +15,9 @@ export const LoginStyle = styled.div`
     height: 100%;
   }
   @media screen and (max-width: 600px) {
-    .container{
-      padding: 110px 0;
+    .container {
+      padding: 100px 0;
     }
-    
   }
   h3 {
     color: #fff;
@@ -26,16 +25,14 @@ export const LoginStyle = styled.div`
   p {
     color: #fff;
   }
-  .subtitle{
-    
-    
+  .subtitle {
     margin: 15px;
   }
   .fsenha {
     border-bottom: 1px solid #fff;
     margin: 15px;
   }
-  .criarconta{
+  .criarconta {
     margin-bottom: 15px;
     border-bottom: 1px solid #fff;
   }
@@ -52,8 +49,8 @@ export const LoginStyle = styled.div`
     color: #fff;
   }
   .logohw {
-    width: 100px;
-    height: 100px;
+    width: 220px;
+    height: 150px;
   }
   button {
     /* margin: 85px 0; */
